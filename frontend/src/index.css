@@ -1,0 +1,38 @@
+:root {
+  --chocolate: #443025;
+  --aloewood: #7F5836;
+  --milk-tea: #AA7F66;
+  --sakura: #EC9C9D;
+  --misty-rose: #F2CF2A;
+  --misty-rose-true: #F2E8E4;
+  --cream: #FDF6F0;
+  --text-dark: #2C1A0E;
+  --text-mid: #5C3D2A;
+  --text-light: #9A7060;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--cream);
+  color: var(--text-dark);
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+}
+
+input, textarea, select {
+  font-family: 'DM Sans', sans-serif;
+}
